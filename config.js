@@ -26,6 +26,15 @@ config = {
             debug: false
         },
 
+        storage: {
+            active: 'ghost-cloudinary-store',
+            'ghost-cloudinary-store': {
+                cloud_name: 'hb4ya3vkk',
+                api_key: '758187827281535',
+                api_secret: 'kMkhcmYKH8KA662cjdU_zo1whtw'
+            }
+        },
+
         server: {
           host: '0.0.0.0',
           port: process.env.PORT
